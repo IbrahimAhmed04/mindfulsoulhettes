@@ -31,25 +31,19 @@ body, html {
 <body>
 
 <!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-blue">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-blue">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-blue">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-blue">COLLECTION</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-blue">CONTACT</a>
-    </div>
-	<div class="w3-col s3">
-      <a href="#reviews" class="w3-button w3-block w3-black">REVIEWS</a>
-    </div>
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Mindful<br>Soulhettes</b></h3>
   </div>
-</div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#About" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#Collection" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Collection</a> 
+    <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a> 
+    <a href="#Reviews" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Reviews</a> 
+  </div>
+</nav>
 
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
@@ -68,7 +62,7 @@ body, html {
 <div class="w3-sand w3-grayscale w3-large">
 
 <!-- About Container -->
-<div class="w3-container" id="about">
+<div class="w3-container" id="About">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
 	<!DOCTYPE html>
@@ -108,7 +102,7 @@ hobbies and while also making great gifts too.</p>
 </div>
 
 <!-- Menu Container -->
-<div class="w3-container" id="menu">
+<div class="w3-container" id="Menu">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide"> MY COLLECTION</span></h5>
@@ -488,7 +482,7 @@ function showSlides(n) {
 </div>
 
 <!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-container" id="Contact" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT ME</span></h5>
 	<br>
@@ -544,7 +538,7 @@ function showSlides(n) {
 </head>
 <br><br>
 <body>
-<div class="w3-container" id="reviews">
+<div class="w3-container" id="Reviews">
 <div class="a">
 <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Reviews</span></h2>
 </div>
